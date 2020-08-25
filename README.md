@@ -21,7 +21,7 @@ Java →
 XML →
 `<Button/>`
 
-[Link](https://github.com/ShivaShirsath/Android) and ![Image](https://github.com/ShivaShirsath/Signature/blob/master/Signature/app/src/main/res/drawable/ic_app.png)
+[Link](https://github.com/ShivaShirsath/Android) and ![Image](app/src/main/res/drawable/ic_app.png)
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
