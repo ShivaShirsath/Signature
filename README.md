@@ -4,8 +4,8 @@
 ### GitHub - [ ShivaShirsath ](https://github.com/ShivaShirsath)
 
 - Social Meadia Handles -
-    1. **Instagram** - [ ___Shiva_Shirsath__ ](https://instagram.com/_Shiva_Shirsath__)
-    2. **Taphere** - [_Bio_](https://taphere.bio/shivashirsath)
+    1. **Instagram** - [ ___Shiva_Shirsath____ ](https://instagram.com/_Shiva_Shirsath__)
+    2. **Taphere** - [__BioWebsite__](https://taphere.bio/shivashirsath)
 `Shiva Shirsath`
 
 [![Image](Signature/app/src/main/res/drawable/ic_app.png)](https://github.com/ShivaShirsath/Signature)
