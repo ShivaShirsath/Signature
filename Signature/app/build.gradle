@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.0"
+
+    defaultConfig {
+        applicationId "ss.shiva.signature"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 4
+        versionName "2.0.3"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+	api 'com.android.support:design:23.+'
+	compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.pes.materialcolorpicker:library:1.0.2'
+	compile fileTree(dir: 'libs', include: ['*.jar'])
+}

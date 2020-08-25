@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		
+		<Toolbar
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:app="http://schemas.android.com/apk/res-auto"
+			android:layout_width="match_parent"
+			android:layout_height="52dp"
+			android:layout_marginTop="6dp"
+			android:layout_marginBottom="3dp"
+			android:layout_marginStart="6dp"
+			android:layout_marginEnd="6dp"
+			android:background="@drawable/bg_toolbar"
+			android:elevation="5dp">
+
+			<RelativeLayout
+				android:gravity="center"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="22dp">
+
+				<ImageView
+					android:padding="2dp"
+					android:src="@drawable/menu"
+					android:id="@+id/menu_opener"
+					android:layout_width="35dp"
+					android:layout_height="35dp"
+					android:onClick="onClick"
+					android:layout_alignParentStart="true"/>
+
+				<ImageView
+					android:padding="2dp"
+					android:src="@drawable/ic_telegram"
+					android:id="@+id/settings_opener"
+					android:layout_width="35dp"
+					android:layout_height="35dp"
+					android:onClick="onClick"
+					android:layout_alignParentEnd="true"/>
+
+			</RelativeLayout>
+
+		</Toolbar>
+		
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="5dp"
+			android:elevation="5dp"
+			android:layout_marginStart="6dp"
+			android:layout_marginEnd="6dp"
+			android:layout_marginTop="3dp"
+			android:layout_marginBottom="6dp"
+			android:background="@drawable/bg_toolbar">
+			
+			<ss.shiva.signature.DrawingView
+				android:id="@+id/drawing"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1.0"/>
+			
+		</RelativeLayout>
+
+	</LinearLayout>
+	
+	<android.support.design.widget.NavigationView
+        android:id="@+id/left_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:itemIconTint="@drawable/item_selector" 
+        app:itemTextColor="@drawable/item_selector" 
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/left_menu"/>
+	
+	<android.support.design.widget.NavigationView
+        android:id="@+id/right_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:fitsSystemWindows="true"
+        app:itemIconTint="@drawable/item_selector" 
+        app:itemTextColor="@drawable/item_selector" 
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/right_menu"/>
+
+</android.support.v4.widget.DrawerLayout>
+

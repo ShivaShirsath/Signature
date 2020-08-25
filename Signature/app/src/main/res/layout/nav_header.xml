@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="176dp"
+	android:gravity="bottom|center"
+	android:orientation="vertical"
+	android:paddingLeft="2dp"
+	android:paddingRight="2dp">
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="32dp"/>
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="match_parent"
+		android:layout_height="75dp"
+		android:src="@drawable/ic_app"
+		android:background="@drawable/bg_field"
+		android:padding="4dp"/>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Shiva Shirsath"
+		android:gravity="center"
+		android:background="@drawable/bg_field"
+		android:padding="5dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"/>
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Shiva.S.Shirsath@gmail.com"
+		android:gravity="center"
+		android:background="@drawable/bg_field"
+		android:padding="5dp"
+		android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"/>
+
+</LinearLayout>
+

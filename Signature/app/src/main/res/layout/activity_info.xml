@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:padding="10dp">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Signature"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_weight="1.0"
+		android:gravity="center"
+		android:textColor="@color/colorPrimaryDark"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="from :- Shiva Shirsath"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_weight="1.0"
+		android:gravity="center"
+		android:textColor="@color/colorPrimary"/>
+
+	<ImageView
+		android:src="@drawable/ic_app"
+		android:layout_width="match_parent"
+		android:layout_height="150dp"
+		android:layout_weight="1.0"
+		android:elevation="10dp"
+		android:padding="25dp"/>
+
+	<TextView
+        android:id="@+id/version"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_weight="1.0"
+		android:gravity="center"
+		android:textColor="@color/colorPrimary"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Copyright © ShivaShirsath\nAll Rights Reserved"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_weight="1.0"
+		android:gravity="center"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Icon made by ShivaShirsath,\nApp build by ShivaShirsath,\nApp build in AIDE."
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_weight="1.0"
+		android:gravity="center"/>
+
+</LinearLayout>
+

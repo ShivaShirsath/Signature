@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_newFile"
+            android:icon="@drawable/ic_new"
+            android:title="New File" />
+        <item
+            android:id="@+id/item_edit"
+            android:icon="@drawable/ic_edit"
+            android:title="Brush and Color" />
+        <item
+            android:id="@+id/item_erase"
+            android:icon="@drawable/ic_eraser"
+            android:title="Eraser" />
+
+        <item
+            android:id="@+id/item_saveFile"
+            android:icon="@drawable/ic_save"
+            android:title="Save File" />
+
+        <item
+            android:id="@+id/item_shareFile"
+            android:icon="@drawable/ic_share"
+            android:title="Share File" />
+    </group>
+
+    <item android:title="Application">
+        <menu>
+            <item
+                android:id="@+id/item_shareApp"
+				android:icon="@drawable/ic_app_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/item_aboutApp"
+				android:icon="@drawable/ic_about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

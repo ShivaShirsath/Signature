@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   
+	<group android:checkableBehavior="single">
+        
+		<item
+            android:id="@+id/item_insta"
+			android:icon="@drawable/ic_insta"
+            android:title="Instagram ID" />
+        
+        <item
+            android:id="@+id/item_instaBioWebsite"
+            android:icon="@drawable/ic_insta"
+            android:title="Taphere.Bio Website" />
+		
+		<item
+			android:id="@+id/item_fb"
+            android:icon="@drawable/ic_fb"
+            android:title="Facebook ID" />
+		
+		<item
+			android:id="@+id/item_yt_personal"
+			android:icon="@drawable/ic_youtube"
+			android:title="YouTube Personal" />
+		
+		<item
+			android:id="@+id/item_yt_official"
+			android:icon="@drawable/ic_youtube"
+			android:title="YouTube Official" />
+		
+		<item
+			android:id="@+id/item_telegram_channel"
+            android:icon="@drawable/ic_telegram"
+            android:title="Telegram Channel" />
+		
+		<item
+			android:id="@+id/item_telegram_group"
+            android:icon="@drawable/ic_telegram"
+            android:title="Telegram Group" />
+		
+		<item
+			android:id="@+id/item_wa"
+			android:icon="@drawable/ic_wa"
+			android:title="WhatsApp Group" />	
+		
+	</group>
+		
+</menu>
