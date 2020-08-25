@@ -1,25 +1,12 @@
 # Signature
 ## Welcome to Signature Application.
 
-### Instagram profile → [Android IDE](https://www.instagram.com/_android_ide__)
+### GitHub - [ ShivaShirsath ](https://github.com/ShivaShirsath)
 
-
-
-
-
-
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-Java →
-`import android.wedget.Button;`
-XML →
-`<Button/>`
+- Social Meadia Handles -
+    1. **Instagram** - [ _ Shiva _ Shirsath __ ](https://instagram.com/_Shiva_Shirsath__)
+    2. _Taphere_ - [**Bio**](taphere.bio/shivashirsath)
+`Shiva Shirsath`
 
 [![Image](Signature/app/src/main/res/drawable/ic_app.png)](https://github.com/ShivaShirsath/Signature)
 
